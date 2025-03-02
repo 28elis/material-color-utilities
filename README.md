@@ -1,3 +1,5 @@
+# Updated for Swift 6.0 compatibility.
+
 # Material Color Utilities
 
 Color is a powerful design tool and part of the Material system along with
