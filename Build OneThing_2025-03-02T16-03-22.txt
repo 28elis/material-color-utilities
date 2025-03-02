@@ -1,0 +1,953 @@
+
+Showing Recent Issues
+Prepare packages
+Prepare build
+Build target RecaptchaInterop
+Build target FirebaseFirestoreInternalWrapper
+Build target FirebaseAppCheckInterop
+Build target FirebaseAuthInterop
+Build target Firebase
+Build target nanopb_nanopb
+Build target leveldb_leveldb
+Build target gRPC_opensslWrapper
+Build target gRPC_grpcppWrapper
+Build target abseil_abslWrapper
+Build target Promises_FBLPromises
+Build target GoogleUtilities_GoogleUtilities-UserDefaults
+Build target gRPC_grpcWrapper
+Build target GoogleUtilities_GoogleUtilities-Reachability
+Build target MaterialColorUtilities
+SwiftCompile normal arm64 Compiling\ DynamicScheme.swift,\ DynamicSchemeProvider.swift,\ MaterialDynamicColors.swift,\ ToneDeltaPair.swift,\ Variant.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/DynamicScheme.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/DynamicSchemeProvider.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/ToneDeltaPair.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/Variant.swift (in target 'MaterialColorUtilities' from project 'MaterialColorUtilities')
+    cd /Users/28elis/Desktop/OneThing/OneThing.xcodeproj
+    builtin-swiftTaskExecution -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swift-frontend -frontend -c /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Blend/Blend.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Contrast/Contrast.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Dislike/DislikeAnalyzer.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/ContrastCurve.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/DynamicColor.swift -primary-file /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/DynamicScheme.swift -primary-file /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/DynamicSchemeProvider.swift -primary-file /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift -primary-file /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/ToneDeltaPair.swift -primary-file /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/Variant.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Hct/Cam16.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Hct/Hct.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Hct/HctSolver.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Hct/ViewingConditions.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Palettes/CorePalettes.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Palettes/TonalPalette.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Quantize/PointProvider.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Quantize/PointProviderLab.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Quantize/Quantizer.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Quantize/QuantizerCelebi.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Quantize/QuantizerMap.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Quantize/QuantizerWsmeans.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Quantize/QuantizerWu.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Scheme/SchemeContent.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Scheme/SchemeExpressive.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Scheme/SchemeFidelity.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Scheme/SchemeFruitSalad.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Scheme/SchemeMonochrome.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Scheme/SchemeNeutral.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Scheme/SchemeRainbow.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Scheme/SchemeTonalSpot.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Scheme/SchemeVibrant.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Score/Score.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Temperature/TemperatureCache.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Utils/ColorUtils.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Utils/MathUtils.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Utils/StringUtils.swift -supplementary-output-file-map /Users/28elis/Library/Developer/Xcode/DerivedData/OneThing-evtrfuafwvslvpdvqybgbvpcjxbr/Build/Intermediates.noindex/MaterialColorUtilities.build/Debug-iphoneos/MaterialColorUtilities.build/Objects-normal/arm64/supplementaryOutputs-20 -target arm64-apple-ios12.0 -Xllvm -aarch64-use-tbi -enable-objc-interop -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.2.sdk -I /Users/28elis/Library/Developer/Xcode/DerivedData/OneThing-evtrfuafwvslvpdvqybgbvpcjxbr/Build/Products/Debug-iphoneos -I /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib -F /Users/28elis/Library/Developer/Xcode/DerivedData/OneThing-evtrfuafwvslvpdvqybgbvpcjxbr/Build/Products/Debug-iphoneos -F /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks -F /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.2.sdk/Developer/Library/Frameworks -no-color-diagnostics -enable-testing -g -debug-info-format\=dwarf -dwarf-version\=4 -module-cache-path /Users/28elis/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -suppress-warnings -profile-generate -profile-coverage-mapping -swift-version 6 -enforce-exclusivity\=checked -Onone -D SWIFT_PACKAGE -D DEBUG -D Xcode -serialize-debugging-options -const-gather-protocols-file /Users/28elis/Library/Developer/Xcode/DerivedData/OneThing-evtrfuafwvslvpdvqybgbvpcjxbr/Build/Intermediates.noindex/MaterialColorUtilities.build/Debug-iphoneos/MaterialColorUtilities.build/Objects-normal/arm64/MaterialColorUtilities_const_extract_protocols.json -enable-experimental-feature DebugDescriptionMacro -enable-experimental-feature OpaqueTypeErasure -empty-abi-descriptor -plugin-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing -validate-clang-modules-once -clang-build-session-file /Users/28elis/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation -Xcc -working-directory -Xcc /Users/28elis/Desktop/OneThing/OneThing.xcodeproj -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift -enable-anonymous-context-mangled-names -file-compilation-dir /Users/28elis/Desktop/OneThing/OneThing.xcodeproj -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -Xcc -ivfsstatcache -Xcc /Users/28elis/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/iphoneos18.2-22C146-d5b9239ec3bf5b3adbecdf21472871e3.sdkstatcache -Xcc -I/Users/28elis/Library/Developer/Xcode/DerivedData/OneThing-evtrfuafwvslvpdvqybgbvpcjxbr/Build/Intermediates.noindex/MaterialColorUtilities.build/Debug-iphoneos/MaterialColorUtilities.build/swift-overrides.hmap -Xcc -I/Users/28elis/Library/Developer/Xcode/DerivedData/OneThing-evtrfuafwvslvpdvqybgbvpcjxbr/Build/Products/Debug-iphoneos/include -Xcc -I/Users/28elis/Library/Developer/Xcode/DerivedData/OneThing-evtrfuafwvslvpdvqybgbvpcjxbr/Build/Intermediates.noindex/MaterialColorUtilities.build/Debug-iphoneos/MaterialColorUtilities.build/DerivedSources-normal/arm64 -Xcc -I/Users/28elis/Library/Developer/Xcode/DerivedData/OneThing-evtrfuafwvslvpdvqybgbvpcjxbr/Build/Intermediates.noindex/MaterialColorUtilities.build/Debug-iphoneos/MaterialColorUtilities.build/DerivedSources/arm64 -Xcc -I/Users/28elis/Library/Developer/Xcode/DerivedData/OneThing-evtrfuafwvslvpdvqybgbvpcjxbr/Build/Intermediates.noindex/MaterialColorUtilities.build/Debug-iphoneos/MaterialColorUtilities.build/DerivedSources -Xcc -DSWIFT_PACKAGE -Xcc -DDEBUG\=1 -module-name MaterialColorUtilities -package-name swift -frontend-parseable-output -disable-clang-spi -target-sdk-version 18.2 -target-sdk-name iphoneos18.2 -external-plugin-path /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/swift/host/plugins\#/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/swift-plugin-server -external-plugin-path /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/local/lib/swift/host/plugins\#/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/swift-plugin-server -plugin-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins -plugin-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/local/lib/swift/host/plugins -o /Users/28elis/Library/Developer/Xcode/DerivedData/OneThing-evtrfuafwvslvpdvqybgbvpcjxbr/Build/Intermediates.noindex/MaterialColorUtilities.build/Debug-iphoneos/MaterialColorUtilities.build/Objects-normal/arm64/DynamicScheme.o -o /Users/28elis/Library/Developer/Xcode/DerivedData/OneThing-evtrfuafwvslvpdvqybgbvpcjxbr/Build/Intermediates.noindex/MaterialColorUtilities.build/Debug-iphoneos/MaterialColorUtilities.build/Objects-normal/arm64/DynamicSchemeProvider.o -o /Users/28elis/Library/Developer/Xcode/DerivedData/OneThing-evtrfuafwvslvpdvqybgbvpcjxbr/Build/Intermediates.noindex/MaterialColorUtilities.build/Debug-iphoneos/MaterialColorUtilities.build/Objects-normal/arm64/MaterialDynamicColors.o -o /Users/28elis/Library/Developer/Xcode/DerivedData/OneThing-evtrfuafwvslvpdvqybgbvpcjxbr/Build/Intermediates.noindex/MaterialColorUtilities.build/Debug-iphoneos/MaterialColorUtilities.build/Objects-normal/arm64/ToneDeltaPair.o -o /Users/28elis/Library/Developer/Xcode/DerivedData/OneThing-evtrfuafwvslvpdvqybgbvpcjxbr/Build/Intermediates.noindex/MaterialColorUtilities.build/Debug-iphoneos/MaterialColorUtilities.build/Objects-normal/arm64/Variant.o -index-unit-output-path /MaterialColorUtilities.build/Debug-iphoneos/MaterialColorUtilities.build/Objects-normal/arm64/DynamicScheme.o -index-unit-output-path /MaterialColorUtilities.build/Debug-iphoneos/MaterialColorUtilities.build/Objects-normal/arm64/DynamicSchemeProvider.o -index-unit-output-path /MaterialColorUtilities.build/Debug-iphoneos/MaterialColorUtilities.build/Objects-normal/arm64/MaterialDynamicColors.o -index-unit-output-path /MaterialColorUtilities.build/Debug-iphoneos/MaterialColorUtilities.build/Objects-normal/arm64/ToneDeltaPair.o -index-unit-output-path /MaterialColorUtilities.build/Debug-iphoneos/MaterialColorUtilities.build/Objects-normal/arm64/Variant.o -index-store-path /Users/28elis/Library/Developer/Xcode/DerivedData/OneThing-evtrfuafwvslvpdvqybgbvpcjxbr/Index.noindex/DataStore -index-system-modules
+
+SwiftCompile normal arm64 /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift (in target 'MaterialColorUtilities' from project 'MaterialColorUtilities')
+    cd /Users/28elis/Desktop/OneThing/OneThing.xcodeproj
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swift-frontend -c /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Blend/Blend.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Contrast/Contrast.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Dislike/DislikeAnalyzer.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/ContrastCurve.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/DynamicColor.swift -primary-file /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/DynamicScheme.swift -primary-file /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/DynamicSchemeProvider.swift -primary-file /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift -primary-file /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/ToneDeltaPair.swift -primary-file /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/Variant.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Hct/Cam16.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Hct/Hct.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Hct/HctSolver.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Hct/ViewingConditions.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Palettes/CorePalettes.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Palettes/TonalPalette.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Quantize/PointProvider.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Quantize/PointProviderLab.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Quantize/Quantizer.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Quantize/QuantizerCelebi.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Quantize/QuantizerMap.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Quantize/QuantizerWsmeans.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Quantize/QuantizerWu.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Scheme/SchemeContent.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Scheme/SchemeExpressive.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Scheme/SchemeFidelity.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Scheme/SchemeFruitSalad.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Scheme/SchemeMonochrome.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Scheme/SchemeNeutral.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Scheme/SchemeRainbow.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Scheme/SchemeTonalSpot.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Scheme/SchemeVibrant.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Score/Score.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Temperature/TemperatureCache.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Utils/ColorUtils.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Utils/MathUtils.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Utils/StringUtils.swift -supplementary-output-file-map /Users/28elis/Library/Developer/Xcode/DerivedData/OneThing-evtrfuafwvslvpdvqybgbvpcjxbr/Build/Intermediates.noindex/MaterialColorUtilities.build/Debug-iphoneos/MaterialColorUtilities.build/Objects-normal/arm64/supplementaryOutputs-20 -target arm64-apple-ios12.0 -Xllvm -aarch64-use-tbi -enable-objc-interop -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.2.sdk -I /Users/28elis/Library/Developer/Xcode/DerivedData/OneThing-evtrfuafwvslvpdvqybgbvpcjxbr/Build/Products/Debug-iphoneos -I /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib -F /Users/28elis/Library/Developer/Xcode/DerivedData/OneThing-evtrfuafwvslvpdvqybgbvpcjxbr/Build/Products/Debug-iphoneos -F /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks -F /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.2.sdk/Developer/Library/Frameworks -no-color-diagnostics -enable-testing -g -debug-info-format\=dwarf -dwarf-version\=4 -module-cache-path /Users/28elis/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -suppress-warnings -profile-generate -profile-coverage-mapping -swift-version 6 -enforce-exclusivity\=checked -Onone -D SWIFT_PACKAGE -D DEBUG -D Xcode -serialize-debugging-options -const-gather-protocols-file /Users/28elis/Library/Developer/Xcode/DerivedData/OneThing-evtrfuafwvslvpdvqybgbvpcjxbr/Build/Intermediates.noindex/MaterialColorUtilities.build/Debug-iphoneos/MaterialColorUtilities.build/Objects-normal/arm64/MaterialColorUtilities_const_extract_protocols.json -enable-experimental-feature DebugDescriptionMacro -enable-experimental-feature OpaqueTypeErasure -empty-abi-descriptor -plugin-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing -validate-clang-modules-once -clang-build-session-file /Users/28elis/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation -Xcc -working-directory -Xcc /Users/28elis/Desktop/OneThing/OneThing.xcodeproj -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift -enable-anonymous-context-mangled-names -file-compilation-dir /Users/28elis/Desktop/OneThing/OneThing.xcodeproj -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -Xcc -ivfsstatcache -Xcc /Users/28elis/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/iphoneos18.2-22C146-d5b9239ec3bf5b3adbecdf21472871e3.sdkstatcache -Xcc -I/Users/28elis/Library/Developer/Xcode/DerivedData/OneThing-evtrfuafwvslvpdvqybgbvpcjxbr/Build/Intermediates.noindex/MaterialColorUtilities.build/Debug-iphoneos/MaterialColorUtilities.build/swift-overrides.hmap -Xcc -I/Users/28elis/Library/Developer/Xcode/DerivedData/OneThing-evtrfuafwvslvpdvqybgbvpcjxbr/Build/Products/Debug-iphoneos/include -Xcc -I/Users/28elis/Library/Developer/Xcode/DerivedData/OneThing-evtrfuafwvslvpdvqybgbvpcjxbr/Build/Intermediates.noindex/MaterialColorUtilities.build/Debug-iphoneos/MaterialColorUtilities.build/DerivedSources-normal/arm64 -Xcc -I/Users/28elis/Library/Developer/Xcode/DerivedData/OneThing-evtrfuafwvslvpdvqybgbvpcjxbr/Build/Intermediates.noindex/MaterialColorUtilities.build/Debug-iphoneos/MaterialColorUtilities.build/DerivedSources/arm64 -Xcc -I/Users/28elis/Library/Developer/Xcode/DerivedData/OneThing-evtrfuafwvslvpdvqybgbvpcjxbr/Build/Intermediates.noindex/MaterialColorUtilities.build/Debug-iphoneos/MaterialColorUtilities.build/DerivedSources -Xcc -DSWIFT_PACKAGE -Xcc -DDEBUG\=1 -module-name MaterialColorUtilities -package-name swift -frontend-parseable-output -disable-clang-spi -target-sdk-version 18.2 -target-sdk-name iphoneos18.2 -external-plugin-path /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/swift/host/plugins\#/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/swift-plugin-server -external-plugin-path /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/local/lib/swift/host/plugins\#/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/swift-plugin-server -plugin-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins -plugin-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/local/lib/swift/host/plugins -o /Users/28elis/Library/Developer/Xcode/DerivedData/OneThing-evtrfuafwvslvpdvqybgbvpcjxbr/Build/Intermediates.noindex/MaterialColorUtilities.build/Debug-iphoneos/MaterialColorUtilities.build/Objects-normal/arm64/DynamicScheme.o -o /Users/28elis/Library/Developer/Xcode/DerivedData/OneThing-evtrfuafwvslvpdvqybgbvpcjxbr/Build/Intermediates.noindex/MaterialColorUtilities.build/Debug-iphoneos/MaterialColorUtilities.build/Objects-normal/arm64/DynamicSchemeProvider.o -o /Users/28elis/Library/Developer/Xcode/DerivedData/OneThing-evtrfuafwvslvpdvqybgbvpcjxbr/Build/Intermediates.noindex/MaterialColorUtilities.build/Debug-iphoneos/MaterialColorUtilities.build/Objects-normal/arm64/MaterialDynamicColors.o -o /Users/28elis/Library/Developer/Xcode/DerivedData/OneThing-evtrfuafwvslvpdvqybgbvpcjxbr/Build/Intermediates.noindex/MaterialColorUtilities.build/Debug-iphoneos/MaterialColorUtilities.build/Objects-normal/arm64/ToneDeltaPair.o -o /Users/28elis/Library/Developer/Xcode/DerivedData/OneThing-evtrfuafwvslvpdvqybgbvpcjxbr/Build/Intermediates.noindex/MaterialColorUtilities.build/Debug-iphoneos/MaterialColorUtilities.build/Objects-normal/arm64/Variant.o -index-unit-output-path /MaterialColorUtilities.build/Debug-iphoneos/MaterialColorUtilities.build/Objects-normal/arm64/DynamicScheme.o -index-unit-output-path /MaterialColorUtilities.build/Debug-iphoneos/MaterialColorUtilities.build/Objects-normal/arm64/DynamicSchemeProvider.o -index-unit-output-path /MaterialColorUtilities.build/Debug-iphoneos/MaterialColorUtilities.build/Objects-normal/arm64/MaterialDynamicColors.o -index-unit-output-path /MaterialColorUtilities.build/Debug-iphoneos/MaterialColorUtilities.build/Objects-normal/arm64/ToneDeltaPair.o -index-unit-output-path /MaterialColorUtilities.build/Debug-iphoneos/MaterialColorUtilities.build/Objects-normal/arm64/Variant.o -index-store-path /Users/28elis/Library/Developer/Xcode/DerivedData/OneThing-evtrfuafwvslvpdvqybgbvpcjxbr/Index.noindex/DataStore -index-system-modules
+
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:33:21: error: static property 'primaryPaletteKeyColor' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+  public static let primaryPaletteKeyColor: DynamicColor = DynamicColor(
+                    ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/DynamicColor.swift:38:14: note: class 'DynamicColor' does not conform to the 'Sendable' protocol
+public class DynamicColor {
+             ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:33:21: note: annotate 'primaryPaletteKeyColor' with '@MainActor' if property should only be accessed from the main actor
+  public static let primaryPaletteKeyColor: DynamicColor = DynamicColor(
+                    ^
+  @MainActor 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:33:21: note: disable concurrency-safety checks if accesses are protected by an external synchronization mechanism
+  public static let primaryPaletteKeyColor: DynamicColor = DynamicColor(
+                    ^
+  nonisolated(unsafe) 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:43:21: error: static property 'secondaryPaletteKeyColor' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+  public static let secondaryPaletteKeyColor: DynamicColor = DynamicColor(
+                    ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/DynamicColor.swift:38:14: note: class 'DynamicColor' does not conform to the 'Sendable' protocol
+public class DynamicColor {
+             ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:43:21: note: annotate 'secondaryPaletteKeyColor' with '@MainActor' if property should only be accessed from the main actor
+  public static let secondaryPaletteKeyColor: DynamicColor = DynamicColor(
+                    ^
+  @MainActor 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:43:21: note: disable concurrency-safety checks if accesses are protected by an external synchronization mechanism
+  public static let secondaryPaletteKeyColor: DynamicColor = DynamicColor(
+                    ^
+  nonisolated(unsafe) 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:53:21: error: static property 'tertiaryPaletteKeyColor' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+  public static let tertiaryPaletteKeyColor: DynamicColor = DynamicColor(
+                    ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/DynamicColor.swift:38:14: note: class 'DynamicColor' does not conform to the 'Sendable' protocol
+public class DynamicColor {
+             ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:53:21: note: annotate 'tertiaryPaletteKeyColor' with '@MainActor' if property should only be accessed from the main actor
+  public static let tertiaryPaletteKeyColor: DynamicColor = DynamicColor(
+                    ^
+  @MainActor 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:53:21: note: disable concurrency-safety checks if accesses are protected by an external synchronization mechanism
+  public static let tertiaryPaletteKeyColor: DynamicColor = DynamicColor(
+                    ^
+  nonisolated(unsafe) 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:63:21: error: static property 'neutralPaletteKeyColor' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+  public static let neutralPaletteKeyColor: DynamicColor = DynamicColor(
+                    ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/DynamicColor.swift:38:14: note: class 'DynamicColor' does not conform to the 'Sendable' protocol
+public class DynamicColor {
+             ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:63:21: note: annotate 'neutralPaletteKeyColor' with '@MainActor' if property should only be accessed from the main actor
+  public static let neutralPaletteKeyColor: DynamicColor = DynamicColor(
+                    ^
+  @MainActor 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:63:21: note: disable concurrency-safety checks if accesses are protected by an external synchronization mechanism
+  public static let neutralPaletteKeyColor: DynamicColor = DynamicColor(
+                    ^
+  nonisolated(unsafe) 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:73:21: error: static property 'neutralVariantPaletteKeyColor' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+  public static let neutralVariantPaletteKeyColor: DynamicColor = DynamicColor(
+                    ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/DynamicColor.swift:38:14: note: class 'DynamicColor' does not conform to the 'Sendable' protocol
+public class DynamicColor {
+             ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:73:21: note: annotate 'neutralVariantPaletteKeyColor' with '@MainActor' if property should only be accessed from the main actor
+  public static let neutralVariantPaletteKeyColor: DynamicColor = DynamicColor(
+                    ^
+  @MainActor 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:73:21: note: disable concurrency-safety checks if accesses are protected by an external synchronization mechanism
+  public static let neutralVariantPaletteKeyColor: DynamicColor = DynamicColor(
+                    ^
+  nonisolated(unsafe) 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:83:21: error: static property 'background' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+  public static let background: DynamicColor = DynamicColor(
+                    ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/DynamicColor.swift:38:14: note: class 'DynamicColor' does not conform to the 'Sendable' protocol
+public class DynamicColor {
+             ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:83:21: note: annotate 'background' with '@MainActor' if property should only be accessed from the main actor
+  public static let background: DynamicColor = DynamicColor(
+                    ^
+  @MainActor 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:83:21: note: disable concurrency-safety checks if accesses are protected by an external synchronization mechanism
+  public static let background: DynamicColor = DynamicColor(
+                    ^
+  nonisolated(unsafe) 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:94:21: error: static property 'onBackground' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+  public static let onBackground: DynamicColor = DynamicColor(
+                    ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/DynamicColor.swift:38:14: note: class 'DynamicColor' does not conform to the 'Sendable' protocol
+public class DynamicColor {
+             ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:94:21: note: annotate 'onBackground' with '@MainActor' if property should only be accessed from the main actor
+  public static let onBackground: DynamicColor = DynamicColor(
+                    ^
+  @MainActor 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:94:21: note: disable concurrency-safety checks if accesses are protected by an external synchronization mechanism
+  public static let onBackground: DynamicColor = DynamicColor(
+                    ^
+  nonisolated(unsafe) 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:108:21: error: static property 'surface' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+  public static let surface: DynamicColor = DynamicColor(
+                    ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/DynamicColor.swift:38:14: note: class 'DynamicColor' does not conform to the 'Sendable' protocol
+public class DynamicColor {
+             ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:108:21: note: annotate 'surface' with '@MainActor' if property should only be accessed from the main actor
+  public static let surface: DynamicColor = DynamicColor(
+                    ^
+  @MainActor 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:108:21: note: disable concurrency-safety checks if accesses are protected by an external synchronization mechanism
+  public static let surface: DynamicColor = DynamicColor(
+                    ^
+  nonisolated(unsafe) 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:119:21: error: static property 'surfaceDim' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+  public static let surfaceDim: DynamicColor = DynamicColor(
+                    ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/DynamicColor.swift:38:14: note: class 'DynamicColor' does not conform to the 'Sendable' protocol
+public class DynamicColor {
+             ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:119:21: note: annotate 'surfaceDim' with '@MainActor' if property should only be accessed from the main actor
+  public static let surfaceDim: DynamicColor = DynamicColor(
+                    ^
+  @MainActor 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:119:21: note: disable concurrency-safety checks if accesses are protected by an external synchronization mechanism
+  public static let surfaceDim: DynamicColor = DynamicColor(
+                    ^
+  nonisolated(unsafe) 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:130:21: error: static property 'surfaceBright' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+  public static let surfaceBright: DynamicColor = DynamicColor(
+                    ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/DynamicColor.swift:38:14: note: class 'DynamicColor' does not conform to the 'Sendable' protocol
+public class DynamicColor {
+             ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:130:21: note: annotate 'surfaceBright' with '@MainActor' if property should only be accessed from the main actor
+  public static let surfaceBright: DynamicColor = DynamicColor(
+                    ^
+  @MainActor 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:130:21: note: disable concurrency-safety checks if accesses are protected by an external synchronization mechanism
+  public static let surfaceBright: DynamicColor = DynamicColor(
+                    ^
+  nonisolated(unsafe) 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:141:21: error: static property 'surfaceContainerLowest' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+  public static let surfaceContainerLowest: DynamicColor = DynamicColor(
+                    ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/DynamicColor.swift:38:14: note: class 'DynamicColor' does not conform to the 'Sendable' protocol
+public class DynamicColor {
+             ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:141:21: note: annotate 'surfaceContainerLowest' with '@MainActor' if property should only be accessed from the main actor
+  public static let surfaceContainerLowest: DynamicColor = DynamicColor(
+                    ^
+  @MainActor 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:141:21: note: disable concurrency-safety checks if accesses are protected by an external synchronization mechanism
+  public static let surfaceContainerLowest: DynamicColor = DynamicColor(
+                    ^
+  nonisolated(unsafe) 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:152:21: error: static property 'surfaceContainerLow' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+  public static let surfaceContainerLow: DynamicColor = DynamicColor(
+                    ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/DynamicColor.swift:38:14: note: class 'DynamicColor' does not conform to the 'Sendable' protocol
+public class DynamicColor {
+             ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:152:21: note: annotate 'surfaceContainerLow' with '@MainActor' if property should only be accessed from the main actor
+  public static let surfaceContainerLow: DynamicColor = DynamicColor(
+                    ^
+  @MainActor 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:152:21: note: disable concurrency-safety checks if accesses are protected by an external synchronization mechanism
+  public static let surfaceContainerLow: DynamicColor = DynamicColor(
+                    ^
+  nonisolated(unsafe) 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:165:21: error: static property 'surfaceContainer' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+  public static let surfaceContainer: DynamicColor = DynamicColor(
+                    ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/DynamicColor.swift:38:14: note: class 'DynamicColor' does not conform to the 'Sendable' protocol
+public class DynamicColor {
+             ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:165:21: note: annotate 'surfaceContainer' with '@MainActor' if property should only be accessed from the main actor
+  public static let surfaceContainer: DynamicColor = DynamicColor(
+                    ^
+  @MainActor 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:165:21: note: disable concurrency-safety checks if accesses are protected by an external synchronization mechanism
+  public static let surfaceContainer: DynamicColor = DynamicColor(
+                    ^
+  nonisolated(unsafe) 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:178:21: error: static property 'surfaceContainerHigh' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+  public static let surfaceContainerHigh: DynamicColor = DynamicColor(
+                    ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/DynamicColor.swift:38:14: note: class 'DynamicColor' does not conform to the 'Sendable' protocol
+public class DynamicColor {
+             ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:178:21: note: annotate 'surfaceContainerHigh' with '@MainActor' if property should only be accessed from the main actor
+  public static let surfaceContainerHigh: DynamicColor = DynamicColor(
+                    ^
+  @MainActor 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:178:21: note: disable concurrency-safety checks if accesses are protected by an external synchronization mechanism
+  public static let surfaceContainerHigh: DynamicColor = DynamicColor(
+                    ^
+  nonisolated(unsafe) 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:191:21: error: static property 'surfaceContainerHighest' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+  public static let surfaceContainerHighest: DynamicColor = DynamicColor(
+                    ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/DynamicColor.swift:38:14: note: class 'DynamicColor' does not conform to the 'Sendable' protocol
+public class DynamicColor {
+             ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:191:21: note: annotate 'surfaceContainerHighest' with '@MainActor' if property should only be accessed from the main actor
+  public static let surfaceContainerHighest: DynamicColor = DynamicColor(
+                    ^
+  @MainActor 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:191:21: note: disable concurrency-safety checks if accesses are protected by an external synchronization mechanism
+  public static let surfaceContainerHighest: DynamicColor = DynamicColor(
+                    ^
+  nonisolated(unsafe) 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:204:21: error: static property 'onSurface' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+  public static let onSurface: DynamicColor = DynamicColor(
+                    ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/DynamicColor.swift:38:14: note: class 'DynamicColor' does not conform to the 'Sendable' protocol
+public class DynamicColor {
+             ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:204:21: note: annotate 'onSurface' with '@MainActor' if property should only be accessed from the main actor
+  public static let onSurface: DynamicColor = DynamicColor(
+                    ^
+  @MainActor 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:204:21: note: disable concurrency-safety checks if accesses are protected by an external synchronization mechanism
+  public static let onSurface: DynamicColor = DynamicColor(
+                    ^
+  nonisolated(unsafe) 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:218:21: error: static property 'surfaceVariant' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+  public static let surfaceVariant: DynamicColor = DynamicColor(
+                    ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/DynamicColor.swift:38:14: note: class 'DynamicColor' does not conform to the 'Sendable' protocol
+public class DynamicColor {
+             ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:218:21: note: annotate 'surfaceVariant' with '@MainActor' if property should only be accessed from the main actor
+  public static let surfaceVariant: DynamicColor = DynamicColor(
+                    ^
+  @MainActor 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:218:21: note: disable concurrency-safety checks if accesses are protected by an external synchronization mechanism
+  public static let surfaceVariant: DynamicColor = DynamicColor(
+                    ^
+  nonisolated(unsafe) 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:229:21: error: static property 'onSurfaceVariant' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+  public static let onSurfaceVariant: DynamicColor = DynamicColor(
+                    ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/DynamicColor.swift:38:14: note: class 'DynamicColor' does not conform to the 'Sendable' protocol
+public class DynamicColor {
+             ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:229:21: note: annotate 'onSurfaceVariant' with '@MainActor' if property should only be accessed from the main actor
+  public static let onSurfaceVariant: DynamicColor = DynamicColor(
+                    ^
+  @MainActor 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:229:21: note: disable concurrency-safety checks if accesses are protected by an external synchronization mechanism
+  public static let onSurfaceVariant: DynamicColor = DynamicColor(
+                    ^
+  nonisolated(unsafe) 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:243:21: error: static property 'inverseSurface' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+  public static let inverseSurface: DynamicColor = DynamicColor(
+                    ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/DynamicColor.swift:38:14: note: class 'DynamicColor' does not conform to the 'Sendable' protocol
+public class DynamicColor {
+             ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:243:21: note: annotate 'inverseSurface' with '@MainActor' if property should only be accessed from the main actor
+  public static let inverseSurface: DynamicColor = DynamicColor(
+                    ^
+  @MainActor 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:243:21: note: disable concurrency-safety checks if accesses are protected by an external synchronization mechanism
+  public static let inverseSurface: DynamicColor = DynamicColor(
+                    ^
+  nonisolated(unsafe) 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:253:21: error: static property 'inverseOnSurface' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+  public static let inverseOnSurface: DynamicColor = DynamicColor(
+                    ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/DynamicColor.swift:38:14: note: class 'DynamicColor' does not conform to the 'Sendable' protocol
+public class DynamicColor {
+             ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:253:21: note: annotate 'inverseOnSurface' with '@MainActor' if property should only be accessed from the main actor
+  public static let inverseOnSurface: DynamicColor = DynamicColor(
+                    ^
+  @MainActor 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:253:21: note: disable concurrency-safety checks if accesses are protected by an external synchronization mechanism
+  public static let inverseOnSurface: DynamicColor = DynamicColor(
+                    ^
+  nonisolated(unsafe) 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:267:21: error: static property 'outline' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+  public static let outline: DynamicColor = DynamicColor(
+                    ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/DynamicColor.swift:38:14: note: class 'DynamicColor' does not conform to the 'Sendable' protocol
+public class DynamicColor {
+             ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:267:21: note: annotate 'outline' with '@MainActor' if property should only be accessed from the main actor
+  public static let outline: DynamicColor = DynamicColor(
+                    ^
+  @MainActor 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:267:21: note: disable concurrency-safety checks if accesses are protected by an external synchronization mechanism
+  public static let outline: DynamicColor = DynamicColor(
+                    ^
+  nonisolated(unsafe) 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:281:21: error: static property 'outlineVariant' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+  public static let outlineVariant: DynamicColor = DynamicColor(
+                    ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/DynamicColor.swift:38:14: note: class 'DynamicColor' does not conform to the 'Sendable' protocol
+public class DynamicColor {
+             ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:281:21: note: annotate 'outlineVariant' with '@MainActor' if property should only be accessed from the main actor
+  public static let outlineVariant: DynamicColor = DynamicColor(
+                    ^
+  @MainActor 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:281:21: note: disable concurrency-safety checks if accesses are protected by an external synchronization mechanism
+  public static let outlineVariant: DynamicColor = DynamicColor(
+                    ^
+  nonisolated(unsafe) 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:295:21: error: static property 'shadow' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+  public static let shadow: DynamicColor = DynamicColor(
+                    ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/DynamicColor.swift:38:14: note: class 'DynamicColor' does not conform to the 'Sendable' protocol
+public class DynamicColor {
+             ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:295:21: note: annotate 'shadow' with '@MainActor' if property should only be accessed from the main actor
+  public static let shadow: DynamicColor = DynamicColor(
+                    ^
+  @MainActor 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:295:21: note: disable concurrency-safety checks if accesses are protected by an external synchronization mechanism
+  public static let shadow: DynamicColor = DynamicColor(
+                    ^
+  nonisolated(unsafe) 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:305:21: error: static property 'scrim' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+  public static let scrim: DynamicColor = DynamicColor(
+                    ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/DynamicColor.swift:38:14: note: class 'DynamicColor' does not conform to the 'Sendable' protocol
+public class DynamicColor {
+             ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:305:21: note: annotate 'scrim' with '@MainActor' if property should only be accessed from the main actor
+  public static let scrim: DynamicColor = DynamicColor(
+                    ^
+  @MainActor 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:305:21: note: disable concurrency-safety checks if accesses are protected by an external synchronization mechanism
+  public static let scrim: DynamicColor = DynamicColor(
+                    ^
+  nonisolated(unsafe) 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:315:21: error: static property 'surfaceTint' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+  public static let surfaceTint: DynamicColor = DynamicColor(
+                    ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/DynamicColor.swift:38:14: note: class 'DynamicColor' does not conform to the 'Sendable' protocol
+public class DynamicColor {
+             ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:315:21: note: annotate 'surfaceTint' with '@MainActor' if property should only be accessed from the main actor
+  public static let surfaceTint: DynamicColor = DynamicColor(
+                    ^
+  @MainActor 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:315:21: note: disable concurrency-safety checks if accesses are protected by an external synchronization mechanism
+  public static let surfaceTint: DynamicColor = DynamicColor(
+                    ^
+  nonisolated(unsafe) 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:326:21: error: static property 'primary' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+  public static let primary: DynamicColor = DynamicColor(
+                    ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/DynamicColor.swift:38:14: note: class 'DynamicColor' does not conform to the 'Sendable' protocol
+public class DynamicColor {
+             ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:326:21: note: annotate 'primary' with '@MainActor' if property should only be accessed from the main actor
+  public static let primary: DynamicColor = DynamicColor(
+                    ^
+  @MainActor 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:326:21: note: disable concurrency-safety checks if accesses are protected by an external synchronization mechanism
+  public static let primary: DynamicColor = DynamicColor(
+                    ^
+  nonisolated(unsafe) 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:349:21: error: static property 'onPrimary' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+  public static let onPrimary: DynamicColor = DynamicColor(
+                    ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/DynamicColor.swift:38:14: note: class 'DynamicColor' does not conform to the 'Sendable' protocol
+public class DynamicColor {
+             ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:349:21: note: annotate 'onPrimary' with '@MainActor' if property should only be accessed from the main actor
+  public static let onPrimary: DynamicColor = DynamicColor(
+                    ^
+  @MainActor 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:349:21: note: disable concurrency-safety checks if accesses are protected by an external synchronization mechanism
+  public static let onPrimary: DynamicColor = DynamicColor(
+                    ^
+  nonisolated(unsafe) 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:366:21: error: static property 'primaryContainer' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+  public static let primaryContainer: DynamicColor = DynamicColor(
+                    ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/DynamicColor.swift:38:14: note: class 'DynamicColor' does not conform to the 'Sendable' protocol
+public class DynamicColor {
+             ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:366:21: note: annotate 'primaryContainer' with '@MainActor' if property should only be accessed from the main actor
+  public static let primaryContainer: DynamicColor = DynamicColor(
+                    ^
+  @MainActor 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:366:21: note: disable concurrency-safety checks if accesses are protected by an external synchronization mechanism
+  public static let primaryContainer: DynamicColor = DynamicColor(
+                    ^
+  nonisolated(unsafe) 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:392:21: error: static property 'onPrimaryContainer' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+  public static let onPrimaryContainer: DynamicColor = DynamicColor(
+                    ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/DynamicColor.swift:38:14: note: class 'DynamicColor' does not conform to the 'Sendable' protocol
+public class DynamicColor {
+             ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:392:21: note: annotate 'onPrimaryContainer' with '@MainActor' if property should only be accessed from the main actor
+  public static let onPrimaryContainer: DynamicColor = DynamicColor(
+                    ^
+  @MainActor 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:392:21: note: disable concurrency-safety checks if accesses are protected by an external synchronization mechanism
+  public static let onPrimaryContainer: DynamicColor = DynamicColor(
+                    ^
+  nonisolated(unsafe) 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:413:21: error: static property 'inversePrimary' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+  public static let inversePrimary: DynamicColor = DynamicColor(
+                    ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/DynamicColor.swift:38:14: note: class 'DynamicColor' does not conform to the 'Sendable' protocol
+public class DynamicColor {
+             ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:413:21: note: annotate 'inversePrimary' with '@MainActor' if property should only be accessed from the main actor
+  public static let inversePrimary: DynamicColor = DynamicColor(
+                    ^
+  @MainActor 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:413:21: note: disable concurrency-safety checks if accesses are protected by an external synchronization mechanism
+  public static let inversePrimary: DynamicColor = DynamicColor(
+                    ^
+  nonisolated(unsafe) 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:427:21: error: static property 'secondary' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+  public static let secondary: DynamicColor = DynamicColor(
+                    ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/DynamicColor.swift:38:14: note: class 'DynamicColor' does not conform to the 'Sendable' protocol
+public class DynamicColor {
+             ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:427:21: note: annotate 'secondary' with '@MainActor' if property should only be accessed from the main actor
+  public static let secondary: DynamicColor = DynamicColor(
+                    ^
+  @MainActor 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:427:21: note: disable concurrency-safety checks if accesses are protected by an external synchronization mechanism
+  public static let secondary: DynamicColor = DynamicColor(
+                    ^
+  nonisolated(unsafe) 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:447:21: error: static property 'onSecondary' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+  public static let onSecondary: DynamicColor = DynamicColor(
+                    ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/DynamicColor.swift:38:14: note: class 'DynamicColor' does not conform to the 'Sendable' protocol
+public class DynamicColor {
+             ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:447:21: note: annotate 'onSecondary' with '@MainActor' if property should only be accessed from the main actor
+  public static let onSecondary: DynamicColor = DynamicColor(
+                    ^
+  @MainActor 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:447:21: note: disable concurrency-safety checks if accesses are protected by an external synchronization mechanism
+  public static let onSecondary: DynamicColor = DynamicColor(
+                    ^
+  nonisolated(unsafe) 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:465:21: error: static property 'secondaryContainer' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+  public static let secondaryContainer: DynamicColor = DynamicColor(
+                    ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/DynamicColor.swift:38:14: note: class 'DynamicColor' does not conform to the 'Sendable' protocol
+public class DynamicColor {
+             ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:465:21: note: annotate 'secondaryContainer' with '@MainActor' if property should only be accessed from the main actor
+  public static let secondaryContainer: DynamicColor = DynamicColor(
+                    ^
+  @MainActor 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:465:21: note: disable concurrency-safety checks if accesses are protected by an external synchronization mechanism
+  public static let secondaryContainer: DynamicColor = DynamicColor(
+                    ^
+  nonisolated(unsafe) 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:494:21: error: static property 'onSecondaryContainer' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+  public static let onSecondaryContainer: DynamicColor = DynamicColor(
+                    ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/DynamicColor.swift:38:14: note: class 'DynamicColor' does not conform to the 'Sendable' protocol
+public class DynamicColor {
+             ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:494:21: note: annotate 'onSecondaryContainer' with '@MainActor' if property should only be accessed from the main actor
+  public static let onSecondaryContainer: DynamicColor = DynamicColor(
+                    ^
+  @MainActor 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:494:21: note: disable concurrency-safety checks if accesses are protected by an external synchronization mechanism
+  public static let onSecondaryContainer: DynamicColor = DynamicColor(
+                    ^
+  nonisolated(unsafe) 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:515:21: error: static property 'tertiary' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+  public static let tertiary: DynamicColor = DynamicColor(
+                    ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/DynamicColor.swift:38:14: note: class 'DynamicColor' does not conform to the 'Sendable' protocol
+public class DynamicColor {
+             ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:515:21: note: annotate 'tertiary' with '@MainActor' if property should only be accessed from the main actor
+  public static let tertiary: DynamicColor = DynamicColor(
+                    ^
+  @MainActor 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:515:21: note: disable concurrency-safety checks if accesses are protected by an external synchronization mechanism
+  public static let tertiary: DynamicColor = DynamicColor(
+                    ^
+  nonisolated(unsafe) 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:538:21: error: static property 'onTertiary' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+  public static let onTertiary: DynamicColor = DynamicColor(
+                    ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/DynamicColor.swift:38:14: note: class 'DynamicColor' does not conform to the 'Sendable' protocol
+public class DynamicColor {
+             ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:538:21: note: annotate 'onTertiary' with '@MainActor' if property should only be accessed from the main actor
+  public static let onTertiary: DynamicColor = DynamicColor(
+                    ^
+  @MainActor 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:538:21: note: disable concurrency-safety checks if accesses are protected by an external synchronization mechanism
+  public static let onTertiary: DynamicColor = DynamicColor(
+                    ^
+  nonisolated(unsafe) 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:555:21: error: static property 'tertiaryContainer' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+  public static let tertiaryContainer: DynamicColor = DynamicColor(
+                    ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/DynamicColor.swift:38:14: note: class 'DynamicColor' does not conform to the 'Sendable' protocol
+public class DynamicColor {
+             ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:555:21: note: annotate 'tertiaryContainer' with '@MainActor' if property should only be accessed from the main actor
+  public static let tertiaryContainer: DynamicColor = DynamicColor(
+                    ^
+  @MainActor 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:555:21: note: disable concurrency-safety checks if accesses are protected by an external synchronization mechanism
+  public static let tertiaryContainer: DynamicColor = DynamicColor(
+                    ^
+  nonisolated(unsafe) 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:582:21: error: static property 'onTertiaryContainer' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+  public static let onTertiaryContainer: DynamicColor = DynamicColor(
+                    ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/DynamicColor.swift:38:14: note: class 'DynamicColor' does not conform to the 'Sendable' protocol
+public class DynamicColor {
+             ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:582:21: note: annotate 'onTertiaryContainer' with '@MainActor' if property should only be accessed from the main actor
+  public static let onTertiaryContainer: DynamicColor = DynamicColor(
+                    ^
+  @MainActor 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:582:21: note: disable concurrency-safety checks if accesses are protected by an external synchronization mechanism
+  public static let onTertiaryContainer: DynamicColor = DynamicColor(
+                    ^
+  nonisolated(unsafe) 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:603:21: error: static property 'error' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+  public static let error: DynamicColor = DynamicColor(
+                    ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/DynamicColor.swift:38:14: note: class 'DynamicColor' does not conform to the 'Sendable' protocol
+public class DynamicColor {
+             ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:603:21: note: annotate 'error' with '@MainActor' if property should only be accessed from the main actor
+  public static let error: DynamicColor = DynamicColor(
+                    ^
+  @MainActor 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:603:21: note: disable concurrency-safety checks if accesses are protected by an external synchronization mechanism
+  public static let error: DynamicColor = DynamicColor(
+                    ^
+  nonisolated(unsafe) 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:623:21: error: static property 'onError' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+  public static let onError: DynamicColor = DynamicColor(
+                    ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/DynamicColor.swift:38:14: note: class 'DynamicColor' does not conform to the 'Sendable' protocol
+public class DynamicColor {
+             ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:623:21: note: annotate 'onError' with '@MainActor' if property should only be accessed from the main actor
+  public static let onError: DynamicColor = DynamicColor(
+                    ^
+  @MainActor 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:623:21: note: disable concurrency-safety checks if accesses are protected by an external synchronization mechanism
+  public static let onError: DynamicColor = DynamicColor(
+                    ^
+  nonisolated(unsafe) 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:637:21: error: static property 'errorContainer' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+  public static let errorContainer: DynamicColor = DynamicColor(
+                    ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/DynamicColor.swift:38:14: note: class 'DynamicColor' does not conform to the 'Sendable' protocol
+public class DynamicColor {
+             ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:637:21: note: annotate 'errorContainer' with '@MainActor' if property should only be accessed from the main actor
+  public static let errorContainer: DynamicColor = DynamicColor(
+                    ^
+  @MainActor 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:637:21: note: disable concurrency-safety checks if accesses are protected by an external synchronization mechanism
+  public static let errorContainer: DynamicColor = DynamicColor(
+                    ^
+  nonisolated(unsafe) 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:657:21: error: static property 'onErrorContainer' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+  public static let onErrorContainer: DynamicColor = DynamicColor(
+                    ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/DynamicColor.swift:38:14: note: class 'DynamicColor' does not conform to the 'Sendable' protocol
+public class DynamicColor {
+             ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:657:21: note: annotate 'onErrorContainer' with '@MainActor' if property should only be accessed from the main actor
+  public static let onErrorContainer: DynamicColor = DynamicColor(
+                    ^
+  @MainActor 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:657:21: note: disable concurrency-safety checks if accesses are protected by an external synchronization mechanism
+  public static let onErrorContainer: DynamicColor = DynamicColor(
+                    ^
+  nonisolated(unsafe) 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:674:21: error: static property 'primaryFixed' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+  public static let primaryFixed: DynamicColor = DynamicColor(
+                    ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/DynamicColor.swift:38:14: note: class 'DynamicColor' does not conform to the 'Sendable' protocol
+public class DynamicColor {
+             ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:674:21: note: annotate 'primaryFixed' with '@MainActor' if property should only be accessed from the main actor
+  public static let primaryFixed: DynamicColor = DynamicColor(
+                    ^
+  @MainActor 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:674:21: note: disable concurrency-safety checks if accesses are protected by an external synchronization mechanism
+  public static let primaryFixed: DynamicColor = DynamicColor(
+                    ^
+  nonisolated(unsafe) 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:695:21: error: static property 'primaryFixedDim' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+  public static let primaryFixedDim: DynamicColor = DynamicColor(
+                    ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/DynamicColor.swift:38:14: note: class 'DynamicColor' does not conform to the 'Sendable' protocol
+public class DynamicColor {
+             ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:695:21: note: annotate 'primaryFixedDim' with '@MainActor' if property should only be accessed from the main actor
+  public static let primaryFixedDim: DynamicColor = DynamicColor(
+                    ^
+  @MainActor 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:695:21: note: disable concurrency-safety checks if accesses are protected by an external synchronization mechanism
+  public static let primaryFixedDim: DynamicColor = DynamicColor(
+                    ^
+  nonisolated(unsafe) 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:716:21: error: static property 'onPrimaryFixed' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+  public static let onPrimaryFixed: DynamicColor = DynamicColor(
+                    ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/DynamicColor.swift:38:14: note: class 'DynamicColor' does not conform to the 'Sendable' protocol
+public class DynamicColor {
+             ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:716:21: note: annotate 'onPrimaryFixed' with '@MainActor' if property should only be accessed from the main actor
+  public static let onPrimaryFixed: DynamicColor = DynamicColor(
+                    ^
+  @MainActor 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:716:21: note: disable concurrency-safety checks if accesses are protected by an external synchronization mechanism
+  public static let onPrimaryFixed: DynamicColor = DynamicColor(
+                    ^
+  nonisolated(unsafe) 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:733:21: error: static property 'onPrimaryFixedVariant' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+  public static let onPrimaryFixedVariant: DynamicColor = DynamicColor(
+                    ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/DynamicColor.swift:38:14: note: class 'DynamicColor' does not conform to the 'Sendable' protocol
+public class DynamicColor {
+             ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:733:21: note: annotate 'onPrimaryFixedVariant' with '@MainActor' if property should only be accessed from the main actor
+  public static let onPrimaryFixedVariant: DynamicColor = DynamicColor(
+                    ^
+  @MainActor 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:733:21: note: disable concurrency-safety checks if accesses are protected by an external synchronization mechanism
+  public static let onPrimaryFixedVariant: DynamicColor = DynamicColor(
+                    ^
+  nonisolated(unsafe) 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:750:21: error: static property 'secondaryFixed' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+  public static let secondaryFixed: DynamicColor = DynamicColor(
+                    ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/DynamicColor.swift:38:14: note: class 'DynamicColor' does not conform to the 'Sendable' protocol
+public class DynamicColor {
+             ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:750:21: note: annotate 'secondaryFixed' with '@MainActor' if property should only be accessed from the main actor
+  public static let secondaryFixed: DynamicColor = DynamicColor(
+                    ^
+  @MainActor 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:750:21: note: disable concurrency-safety checks if accesses are protected by an external synchronization mechanism
+  public static let secondaryFixed: DynamicColor = DynamicColor(
+                    ^
+  nonisolated(unsafe) 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:771:21: error: static property 'secondaryFixedDim' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+  public static let secondaryFixedDim: DynamicColor = DynamicColor(
+                    ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/DynamicColor.swift:38:14: note: class 'DynamicColor' does not conform to the 'Sendable' protocol
+public class DynamicColor {
+             ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:771:21: note: annotate 'secondaryFixedDim' with '@MainActor' if property should only be accessed from the main actor
+  public static let secondaryFixedDim: DynamicColor = DynamicColor(
+                    ^
+  @MainActor 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:771:21: note: disable concurrency-safety checks if accesses are protected by an external synchronization mechanism
+  public static let secondaryFixedDim: DynamicColor = DynamicColor(
+                    ^
+  nonisolated(unsafe) 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:792:21: error: static property 'onSecondaryFixed' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+  public static let onSecondaryFixed: DynamicColor = DynamicColor(
+                    ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/DynamicColor.swift:38:14: note: class 'DynamicColor' does not conform to the 'Sendable' protocol
+public class DynamicColor {
+             ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:792:21: note: annotate 'onSecondaryFixed' with '@MainActor' if property should only be accessed from the main actor
+  public static let onSecondaryFixed: DynamicColor = DynamicColor(
+                    ^
+  @MainActor 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:792:21: note: disable concurrency-safety checks if accesses are protected by an external synchronization mechanism
+  public static let onSecondaryFixed: DynamicColor = DynamicColor(
+                    ^
+  nonisolated(unsafe) 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:809:21: error: static property 'onSecondaryFixedVariant' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+  public static let onSecondaryFixedVariant: DynamicColor = DynamicColor(
+                    ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/DynamicColor.swift:38:14: note: class 'DynamicColor' does not conform to the 'Sendable' protocol
+public class DynamicColor {
+             ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:809:21: note: annotate 'onSecondaryFixedVariant' with '@MainActor' if property should only be accessed from the main actor
+  public static let onSecondaryFixedVariant: DynamicColor = DynamicColor(
+                    ^
+  @MainActor 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:809:21: note: disable concurrency-safety checks if accesses are protected by an external synchronization mechanism
+  public static let onSecondaryFixedVariant: DynamicColor = DynamicColor(
+                    ^
+  nonisolated(unsafe) 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:826:21: error: static property 'tertiaryFixed' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+  public static let tertiaryFixed: DynamicColor = DynamicColor(
+                    ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/DynamicColor.swift:38:14: note: class 'DynamicColor' does not conform to the 'Sendable' protocol
+public class DynamicColor {
+             ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:826:21: note: annotate 'tertiaryFixed' with '@MainActor' if property should only be accessed from the main actor
+  public static let tertiaryFixed: DynamicColor = DynamicColor(
+                    ^
+  @MainActor 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:826:21: note: disable concurrency-safety checks if accesses are protected by an external synchronization mechanism
+  public static let tertiaryFixed: DynamicColor = DynamicColor(
+                    ^
+  nonisolated(unsafe) 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:847:21: error: static property 'tertiaryFixedDim' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+  public static let tertiaryFixedDim: DynamicColor = DynamicColor(
+                    ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/DynamicColor.swift:38:14: note: class 'DynamicColor' does not conform to the 'Sendable' protocol
+public class DynamicColor {
+             ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:847:21: note: annotate 'tertiaryFixedDim' with '@MainActor' if property should only be accessed from the main actor
+  public static let tertiaryFixedDim: DynamicColor = DynamicColor(
+                    ^
+  @MainActor 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:847:21: note: disable concurrency-safety checks if accesses are protected by an external synchronization mechanism
+  public static let tertiaryFixedDim: DynamicColor = DynamicColor(
+                    ^
+  nonisolated(unsafe) 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:868:21: error: static property 'onTertiaryFixed' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+  public static let onTertiaryFixed: DynamicColor = DynamicColor(
+                    ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/DynamicColor.swift:38:14: note: class 'DynamicColor' does not conform to the 'Sendable' protocol
+public class DynamicColor {
+             ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:868:21: note: annotate 'onTertiaryFixed' with '@MainActor' if property should only be accessed from the main actor
+  public static let onTertiaryFixed: DynamicColor = DynamicColor(
+                    ^
+  @MainActor 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:868:21: note: disable concurrency-safety checks if accesses are protected by an external synchronization mechanism
+  public static let onTertiaryFixed: DynamicColor = DynamicColor(
+                    ^
+  nonisolated(unsafe) 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:885:21: error: static property 'onTertiaryFixedVariant' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+  public static let onTertiaryFixedVariant: DynamicColor = DynamicColor(
+                    ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/DynamicColor.swift:38:14: note: class 'DynamicColor' does not conform to the 'Sendable' protocol
+public class DynamicColor {
+             ^
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:885:21: note: annotate 'onTertiaryFixedVariant' with '@MainActor' if property should only be accessed from the main actor
+  public static let onTertiaryFixedVariant: DynamicColor = DynamicColor(
+                    ^
+  @MainActor 
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:885:21: note: disable concurrency-safety checks if accesses are protected by an external synchronization mechanism
+  public static let onTertiaryFixedVariant: DynamicColor = DynamicColor(
+                    ^
+  nonisolated(unsafe) 
+
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:33:21: Static property 'primaryPaletteKeyColor' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:43:21: Static property 'secondaryPaletteKeyColor' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:53:21: Static property 'tertiaryPaletteKeyColor' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:63:21: Static property 'neutralPaletteKeyColor' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:73:21: Static property 'neutralVariantPaletteKeyColor' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:83:21: Static property 'background' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:94:21: Static property 'onBackground' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:108:21: Static property 'surface' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:119:21: Static property 'surfaceDim' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:130:21: Static property 'surfaceBright' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:141:21: Static property 'surfaceContainerLowest' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:152:21: Static property 'surfaceContainerLow' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:165:21: Static property 'surfaceContainer' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:178:21: Static property 'surfaceContainerHigh' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:191:21: Static property 'surfaceContainerHighest' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:204:21: Static property 'onSurface' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:218:21: Static property 'surfaceVariant' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:229:21: Static property 'onSurfaceVariant' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:243:21: Static property 'inverseSurface' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:253:21: Static property 'inverseOnSurface' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:267:21: Static property 'outline' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:281:21: Static property 'outlineVariant' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:295:21: Static property 'shadow' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:305:21: Static property 'scrim' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:315:21: Static property 'surfaceTint' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:326:21: Static property 'primary' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:349:21: Static property 'onPrimary' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:366:21: Static property 'primaryContainer' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:392:21: Static property 'onPrimaryContainer' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:413:21: Static property 'inversePrimary' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:427:21: Static property 'secondary' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:447:21: Static property 'onSecondary' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:465:21: Static property 'secondaryContainer' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:494:21: Static property 'onSecondaryContainer' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:515:21: Static property 'tertiary' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:538:21: Static property 'onTertiary' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:555:21: Static property 'tertiaryContainer' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:582:21: Static property 'onTertiaryContainer' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:603:21: Static property 'error' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:623:21: Static property 'onError' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:637:21: Static property 'errorContainer' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:657:21: Static property 'onErrorContainer' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:674:21: Static property 'primaryFixed' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:695:21: Static property 'primaryFixedDim' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:716:21: Static property 'onPrimaryFixed' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:733:21: Static property 'onPrimaryFixedVariant' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:750:21: Static property 'secondaryFixed' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:771:21: Static property 'secondaryFixedDim' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:792:21: Static property 'onSecondaryFixed' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:809:21: Static property 'onSecondaryFixedVariant' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:826:21: Static property 'tertiaryFixed' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:847:21: Static property 'tertiaryFixedDim' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:868:21: Static property 'onTertiaryFixed' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+
+/Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift:885:21: Static property 'onTertiaryFixedVariant' is not concurrency-safe because non-'Sendable' type 'DynamicColor' may have shared mutable state
+
+SwiftCompile normal arm64 Compiling\ SchemeFidelity.swift,\ SchemeFruitSalad.swift,\ SchemeMonochrome.swift,\ SchemeNeutral.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Scheme/SchemeFidelity.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Scheme/SchemeFruitSalad.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Scheme/SchemeMonochrome.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Scheme/SchemeNeutral.swift (in target 'MaterialColorUtilities' from project 'MaterialColorUtilities')
+    cd /Users/28elis/Desktop/OneThing/OneThing.xcodeproj
+    builtin-swiftTaskExecution -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swift-frontend -frontend -c /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Blend/Blend.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Contrast/Contrast.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Dislike/DislikeAnalyzer.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/ContrastCurve.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/DynamicColor.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/DynamicScheme.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/DynamicSchemeProvider.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/MaterialDynamicColors.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/ToneDeltaPair.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/DynamicColor/Variant.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Hct/Cam16.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Hct/Hct.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Hct/HctSolver.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Hct/ViewingConditions.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Palettes/CorePalettes.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Palettes/TonalPalette.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Quantize/PointProvider.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Quantize/PointProviderLab.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Quantize/Quantizer.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Quantize/QuantizerCelebi.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Quantize/QuantizerMap.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Quantize/QuantizerWsmeans.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Quantize/QuantizerWu.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Scheme/SchemeContent.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Scheme/SchemeExpressive.swift -primary-file /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Scheme/SchemeFidelity.swift -primary-file /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Scheme/SchemeFruitSalad.swift -primary-file /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Scheme/SchemeMonochrome.swift -primary-file /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Scheme/SchemeNeutral.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Scheme/SchemeRainbow.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Scheme/SchemeTonalSpot.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Scheme/SchemeVibrant.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Score/Score.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Temperature/TemperatureCache.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Utils/ColorUtils.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Utils/MathUtils.swift /Users/28elis/Desktop/material-color-utilities/swift/Sources/MaterialColorUtilities/Utils/StringUtils.swift -supplementary-output-file-map /Users/28elis/Library/Developer/Xcode/DerivedData/OneThing-evtrfuafwvslvpdvqybgbvpcjxbr/Build/Intermediates.noindex/MaterialColorUtilities.build/Debug-iphoneos/MaterialColorUtilities.build/Objects-normal/arm64/supplementaryOutputs-24 -target arm64-apple-ios12.0 -Xllvm -aarch64-use-tbi -enable-objc-interop -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.2.sdk -I /Users/28elis/Library/Developer/Xcode/DerivedData/OneThing-evtrfuafwvslvpdvqybgbvpcjxbr/Build/Products/Debug-iphoneos -I /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib -F /Users/28elis/Library/Developer/Xcode/DerivedData/OneThing-evtrfuafwvslvpdvqybgbvpcjxbr/Build/Products/Debug-iphoneos -F /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks -F /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.2.sdk/Developer/Library/Frameworks -no-color-diagnostics -enable-testing -g -debug-info-format\=dwarf -dwarf-version\=4 -module-cache-path /Users/28elis/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -suppress-warnings -profile-generate -profile-coverage-mapping -swift-version 6 -enforce-exclusivity\=checked -Onone -D SWIFT_PACKAGE -D DEBUG -D Xcode -serialize-debugging-options -const-gather-protocols-file /Users/28elis/Library/Developer/Xcode/DerivedData/OneThing-evtrfuafwvslvpdvqybgbvpcjxbr/Build/Intermediates.noindex/MaterialColorUtilities.build/Debug-iphoneos/MaterialColorUtilities.build/Objects-normal/arm64/MaterialColorUtilities_const_extract_protocols.json -enable-experimental-feature DebugDescriptionMacro -enable-experimental-feature OpaqueTypeErasure -empty-abi-descriptor -plugin-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing -validate-clang-modules-once -clang-build-session-file /Users/28elis/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation -Xcc -working-directory -Xcc /Users/28elis/Desktop/OneThing/OneThing.xcodeproj -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift -enable-anonymous-context-mangled-names -file-compilation-dir /Users/28elis/Desktop/OneThing/OneThing.xcodeproj -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -Xcc -ivfsstatcache -Xcc /Users/28elis/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/iphoneos18.2-22C146-d5b9239ec3bf5b3adbecdf21472871e3.sdkstatcache -Xcc -I/Users/28elis/Library/Developer/Xcode/DerivedData/OneThing-evtrfuafwvslvpdvqybgbvpcjxbr/Build/Intermediates.noindex/MaterialColorUtilities.build/Debug-iphoneos/MaterialColorUtilities.build/swift-overrides.hmap -Xcc -I/Users/28elis/Library/Developer/Xcode/DerivedData/OneThing-evtrfuafwvslvpdvqybgbvpcjxbr/Build/Products/Debug-iphoneos/include -Xcc -I/Users/28elis/Library/Developer/Xcode/DerivedData/OneThing-evtrfuafwvslvpdvqybgbvpcjxbr/Build/Intermediates.noindex/MaterialColorUtilities.build/Debug-iphoneos/MaterialColorUtilities.build/DerivedSources-normal/arm64 -Xcc -I/Users/28elis/Library/Developer/Xcode/DerivedData/OneThing-evtrfuafwvslvpdvqybgbvpcjxbr/Build/Intermediates.noindex/MaterialColorUtilities.build/Debug-iphoneos/MaterialColorUtilities.build/DerivedSources/arm64 -Xcc -I/Users/28elis/Library/Developer/Xcode/DerivedData/OneThing-evtrfuafwvslvpdvqybgbvpcjxbr/Build/Intermediates.noindex/MaterialColorUtilities.build/Debug-iphoneos/MaterialColorUtilities.build/DerivedSources -Xcc -DSWIFT_PACKAGE -Xcc -DDEBUG\=1 -module-name MaterialColorUtilities -package-name swift -frontend-parseable-output -disable-clang-spi -target-sdk-version 18.2 -target-sdk-name iphoneos18.2 -external-plugin-path /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/swift/host/plugins\#/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/swift-plugin-server -external-plugin-path /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/local/lib/swift/host/plugins\#/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/swift-plugin-server -plugin-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins -plugin-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/local/lib/swift/host/plugins -o /Users/28elis/Library/Developer/Xcode/DerivedData/OneThing-evtrfuafwvslvpdvqybgbvpcjxbr/Build/Intermediates.noindex/MaterialColorUtilities.build/Debug-iphoneos/MaterialColorUtilities.build/Objects-normal/arm64/SchemeFidelity.o -o /Users/28elis/Library/Developer/Xcode/DerivedData/OneThing-evtrfuafwvslvpdvqybgbvpcjxbr/Build/Intermediates.noindex/MaterialColorUtilities.build/Debug-iphoneos/MaterialColorUtilities.build/Objects-normal/arm64/SchemeFruitSalad.o -o /Users/28elis/Library/Developer/Xcode/DerivedData/OneThing-evtrfuafwvslvpdvqybgbvpcjxbr/Build/Intermediates.noindex/MaterialColorUtilities.build/Debug-iphoneos/MaterialColorUtilities.build/Objects-normal/arm64/SchemeMonochrome.o -o /Users/28elis/Library/Developer/Xcode/DerivedData/OneThing-evtrfuafwvslvpdvqybgbvpcjxbr/Build/Intermediates.noindex/MaterialColorUtilities.build/Debug-iphoneos/MaterialColorUtilities.build/Objects-normal/arm64/SchemeNeutral.o -index-unit-output-path /MaterialColorUtilities.build/Debug-iphoneos/MaterialColorUtilities.build/Objects-normal/arm64/SchemeFidelity.o -index-unit-output-path /MaterialColorUtilities.build/Debug-iphoneos/MaterialColorUtilities.build/Objects-normal/arm64/SchemeFruitSalad.o -index-unit-output-path /MaterialColorUtilities.build/Debug-iphoneos/MaterialColorUtilities.build/Objects-normal/arm64/SchemeMonochrome.o -index-unit-output-path /MaterialColorUtilities.build/Debug-iphoneos/MaterialColorUtilities.build/Objects-normal/arm64/SchemeNeutral.o -index-store-path /Users/28elis/Library/Developer/Xcode/DerivedData/OneThing-evtrfuafwvslvpdvqybgbvpcjxbr/Index.noindex/DataStore -index-system-modules
+
+Command SwiftCompile failed with a nonzero exit code
+
+Command SwiftCompile failed with a nonzero exit code
+
+Build target GoogleUtilities_GoogleUtilities-Network
+Build target GoogleUtilities_GoogleUtilities-NSData
+Build target GoogleUtilities_GoogleUtilities-Logger
+Build target GoogleUtilities_GoogleUtilities-Environment
+Build target GoogleUtilities_GoogleUtilities-AppDelegateSwizzler
+Build target nanopb
+Build target leveldb
+Build target abslWrapper
+Build target GoogleSignIn_GoogleSignInSwift
+Build target opensslWrapper
+Build target GoogleSignIn_GoogleSignIn
+Build target third-party-IsAppEncrypted
+Build target FBLPromises
+Build target GTMSessionFetcher_GTMSessionFetcherCore
+Build target GTMAppAuth_GTMAppAuth
+Build target Firebase_FirebaseFirestore
+Build target Firebase_FirebaseCoreInternal
+Build target Firebase_FirebaseCoreExtension
+Build target Firebase_FirebaseCore
+Build target grpcWrapper
+Build target Firebase_FirebaseAuth
+Build target GoogleUtilities-Environment
+Build target AppAuth_AppAuthCore
+Build target AppAuth_AppAuth
+Build target GoogleUtilities-Logger
+Build target GoogleUtilities-UserDefaults
+Build target AppCheckCore
+Build target GoogleUtilities-NSData
+Build target GoogleUtilities-Reachability
+Build target GoogleUtilities-Network
+Build target GoogleUtilities-AppDelegateSwizzler
+Build target grpcppWrapper
+Build target GTMSessionFetcherCore
+Build target FirebaseCoreInternal
+Build target FirebaseCore
+Build target FirebaseCoreExtension
+Build target FirebaseSharedSwift
+Build target FirebaseDatabaseInternal
+Build target FirebaseFirestore
+Build target FirebaseDatabase
+Build target FirebaseStorage
+Build target FirebaseFirestoreTarget
+Build target FirebaseAuthInternal
+Build target FirebaseAuth
+Build target AppAuthCore
+Build target AppAuth
+Build target GTMAppAuth
+Build target GoogleSignIn
+Build target GoogleSignInSwift
+Build target OneThing
+
+
+Activity Log Complete    3/2/25, 4:03 PM    7.0 seconds
